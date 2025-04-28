@@ -22,7 +22,8 @@ import "./About.scss";
 const About = () => {
   return (
     <div className="about">
-      <Fade direction="up" triggerOnce duration={600}>
+      {/* About Me Section */}
+      <Fade direction="up" triggerOnce duration={700}>
         <h1 className="section-title">About Me</h1>
         <p className="summary">
           I’m a <strong>Frontend Engineer</strong> with{" "}
@@ -33,38 +34,39 @@ const About = () => {
         </p>
       </Fade>
 
+      {/* Tech Stack Section */}
       <div className="section">
         <Fade direction="up" triggerOnce duration={600}>
           <h2>Tech Stack</h2>
+          <div className="tech-icons">
+            {[
+              { Icon: FaReact, title: "React.js" },
+              { Icon: SiRedux, title: "Redux / Redux-saga" },
+              { Icon: SiNextdotjs, title: "Next.js" },
+              { Icon: FaJs, title: "JavaScript" },
+              { Icon: FaSass, title: "SCSS" },
+              { Icon: FaGithub, title: "Github" },
+              { Icon: FaCss3Alt, title: "CSS" },
+              { Icon: SiTailwindcss, title: "Tailwind CSS" },
+              { Icon: SiChartdotjs, title: "amCharts / Recharts" },
+              { Icon: FaGitAlt, title: "Git" },
+              { Icon: SiPostman, title: "Postman" },
+              { Icon: SiJira, title: "Jira" },
+            ].map(({ Icon, title }, idx) => (
+              <Tilt
+                key={idx}
+                glareEnable={true}
+                glareMaxOpacity={0.15}
+                scale={1.05}
+              >
+                <Icon title={title} />
+              </Tilt>
+            ))}
+          </div>
         </Fade>
-
-        <div className="tech-icons">
-          {[
-            { Icon: FaReact, title: "React.js" },
-            { Icon: SiRedux, title: "Redux / Redux-saga" },
-            { Icon: SiNextdotjs, title: "Next.js" },
-            { Icon: FaJs, title: "JavaScript" },
-            { Icon: FaSass, title: "SCSS" },
-            { Icon: FaGithub, title: "Github" },
-            { Icon: FaCss3Alt, title: "CSS" },
-            { Icon: SiTailwindcss, title: "Tailwind CSS" },
-            { Icon: SiChartdotjs, title: "amCharts / Recharts" },
-            { Icon: FaGitAlt, title: "Git" },
-            { Icon: SiPostman, title: "Postman" },
-            { Icon: SiJira, title: "Jira" },
-          ].map(({ Icon, title }, idx) => (
-            <Tilt
-              key={idx}
-              glareEnable={true}
-              glareMaxOpacity={0.15}
-              scale={1.05}
-            >
-              <Icon title={title} />
-            </Tilt>
-          ))}
-        </div>
       </div>
 
+      {/* Experience Snapshot Section */}
       <div className="section">
         <Fade direction="up" triggerOnce duration={600}>
           <h2>Experience Snapshot</h2>
@@ -93,17 +95,24 @@ const About = () => {
         </Fade>
       </div>
 
+      {/* Passion Projects Section */}
       <div className="section">
         <Fade direction="up" triggerOnce duration={600}>
           <h2>Passion Projects</h2>
           <p>
-            Over the past three years, I've built 35+ side projects, like AI
-            Resume Critics, snappy OTP components, and full clones of
-            Gmail/Snapchat using React.js, Redux, Firebase, and Material-UI.
+            Over the past three and a half years, I've built 40+ side projects
+            ranging from full-stack web apps, landing pages, dynamic dashboards,
+            to utility tools. Projects like premium e-commerce sites, AI-powered
+            Resume Builders, animated portfolio templates, and OTP
+            authentication systems showcase my frontend innovation and backend
+            integration skills.
           </p>
           <p>
-            My portfolio includes animation-rich UI explorers, complex data
-            visualization tools, and UX-focused micro-interactions.
+            My portfolio features diverse tech stacks including React.js,
+            Next.js, Redux, Firebase, Tailwind CSS, and Framer Motion. From
+            high-performance UI animations to scalable SaaS platforms and
+            dashboard analytics, each project reflects my focus on clean code,
+            user experience, and pixel-perfect execution.
           </p>
           <p className="github-cta">
             👉 Check out all my open-source work on{" "}
