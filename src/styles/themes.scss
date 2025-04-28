@@ -10,6 +10,7 @@ body[data-theme="dark"] {
     --scroll-track: #222;
     --btn-text: #000;
     --btn-hover-text: #fff;
+    --btn-theme: #1f1f1f
 }
 
 body[data-theme="light"] {
@@ -22,4 +23,5 @@ body[data-theme="light"] {
     --scroll-track: #eee;
     --btn-text: #fff;
     --btn-hover-text: #fff;
+    --btn-theme: #ffffff
 }

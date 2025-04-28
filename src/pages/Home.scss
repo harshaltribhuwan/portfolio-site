@@ -69,7 +69,7 @@
 
             .btn-glow {
                 background-color: var(--primary);
-                color: #000;
+                color: var(--btn-theme) !important;
                 padding: 0.8rem 1.6rem;
                 border-radius: $border-radius;
                 font-weight: bold;
