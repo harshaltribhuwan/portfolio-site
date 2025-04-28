@@ -21,6 +21,13 @@ export const projects = [
         demo: "https://slack-clone-ht.web.app/",
     },
     {
+        title: "Premium Store Experience",
+        tech: ["React", "Redux","Framer Motion"],
+        description: "A sleek, responsive e-commerce site with smooth animations and modern UI.",
+        github: "https://github.com/harshaltribhuwan/hyt-e-commerce",
+        demo: "https://harshaltribhuwan.github.io/hyt-e-commerce/",
+    },
+    {
         title: "AI Resume Critic",
         tech: ["React", "SCSS", "Framer Motion"],
         description: "Smart PDF resume reviewer with animated feedback.",
@@ -49,18 +56,18 @@ export const projects = [
         demo: "https://dashboard-ui-task.netlify.app/",
     },
     {
-        title: "FluidProfiles",
-        tech: ["React", "Framer Motion", "API Integration"],
-        description: "Filterable user cards with smooth transitions and interactive fluid animations.",
-        github: "https://github.com/harshaltribhuwan/animated-user-explorer",
-        demo: "https://harshaltribhuwan.github.io/animated-user-explorer/",
-    },
-    {
         title: "PixHunt",
         tech: ["React", "Tailwind", "Pixabay API"],
         description: "Image search UI using Pixabay with Tailwind styling.",
         github: "https://github.com/harshaltribhuwan/image-gallary-tailwind",
         demo: "https://image-gallary-tailwind.netlify.app/",
+    },
+    {
+        title: "FluidProfiles",
+        tech: ["React", "Framer Motion", "API Integration"],
+        description: "Filterable user cards with smooth transitions and interactive fluid animations.",
+        github: "https://github.com/harshaltribhuwan/animated-user-explorer",
+        demo: "https://harshaltribhuwan.github.io/animated-user-explorer/",
     },
     {
         title: "GameHub",
