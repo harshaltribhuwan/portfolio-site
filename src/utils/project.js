@@ -21,6 +21,13 @@ export const projects = [
         demo: "https://slack-clone-ht.web.app/",
     },
     {
+        title: "Nova Store",
+        tech: ["React", "TypeScript", "G-SAP",  "Wouter"],
+        description: "Premium clothing store with smooth animations and UI",
+        github: "https://github.com/harshaltribhuwan/nova-store",
+        demo: "https://hyt-nova-store.netlify.app/",
+    },
+    {
         title: "Premium Store Experience",
         tech: ["React", "Redux","Framer Motion"],
         description: "A sleek, responsive e-commerce site with smooth animations and modern UI.",
