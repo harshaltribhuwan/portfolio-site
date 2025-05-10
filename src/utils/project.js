@@ -21,10 +21,10 @@ export const projects = [
         demo: "https://slack-clone-ht.web.app/",
     },
     {
-        title: "Nova Store",
-        tech: ["React", "TypeScript", "G-SAP",  "Wouter"],
-        description: "Premium clothing store with smooth animations and UI",
-        github: "https://github.com/harshaltribhuwan/nova-store",
+        title: "Travel Mate",
+        tech: ["React", "TypeScript", "APIs",  "Wouter"],
+        description: "An AI-powered all-in-one travel assistant that simplifies and enhances global travel.",
+        github: "https://github.com/harshaltribhuwan/travel-mate",
         demo: "https://hyt-nova-store.netlify.app/",
     },
     {
