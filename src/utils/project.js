@@ -25,7 +25,7 @@ export const projects = [
         tech: ["React", "TypeScript", "APIs",  "Wouter"],
         description: "An AI-powered all-in-one travel assistant that simplifies and enhances global travel.",
         github: "https://github.com/harshaltribhuwan/travel-mate",
-        demo: "https://hyt-nova-store.netlify.app/",
+        demo: "https://hyt-travelmate.netlify.app/",
     },
     {
         title: "Premium Store Experience",
